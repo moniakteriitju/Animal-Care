@@ -1,0 +1,35 @@
+ul{
+    margin:auto;
+    padding:0;
+    list-style:none;
+    height:36px;
+    width:100%;
+    line-height:36px;
+    background-color:midnightblue;
+    border-radius:10px;
+    font-family:inherit;
+    font-size: 15px;;
+
+}
+
+li{
+    float:right;
+    border-left: 2px solid midnightblue;
+}
+ul li a{
+    display:block;
+    padding: 0 28px;
+    color:white;
+    text-decoration:none;
+}
+ul li a:hover{
+    background-color:white;
+    color:midnightblue;
+    border-radius:8px;
+}
+.active a{
+    background-color:white;
+    color:midnightblue;
+    border-radius:8px;
+  
+}

@@ -1,0 +1,55 @@
+**localhost = /var/www/html      
+---------------------------
+log in as SU
+--------------
+
+
+      Commands                                           Explanasions
+--------------------                                 ---------------------
+
+
+
+** mkdir /var/www/html/abcd                 (This command is used to creat new directory )
+.............................
+
+
+** ls /var/www/html                         (This is for checking the name of directories in localhost)
+..............................
+
+  
+** ls /var/www/html/-l                      (This shows files and directories list)
+
+..............................
+
+
+
+
+
+** nano /var/www/html/abcd/index.html      
+                                            ( this command is used to creat file inside the directory .Here abcd is the      directory name and index.html is the file name. )
+
+ ...................................
+
+
+
+
+** ls /var/www/html/abcd                   (This command is used to show the files inside the directory)
+.........................
+
+
+
+
+** subl /var/www/html/abcd/                (it opens the directory in sublime text)
+............................
+
+
+
+
+** ocalhost/abcd/                          (this must be write in the browser to see the result )
+..................
+
+
+
+
+**tail -f /var/log/apache2/error.log         (this is used to see the errors in code)
+.....................................
